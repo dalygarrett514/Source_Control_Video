@@ -8,6 +8,13 @@
   urlSlug=""
   uuid="8b270dc3-92bc-4d46-9d42-5bb54f886d40"
 >
+  <RetoolAIQuery
+    id="query1"
+    action="textSummarization"
+    instruction="{{ table1.selectedRow }}"
+    resourceDisplayName="retool_ai"
+    resourceName="retool_ai"
+  />
   <Frame
     id="$main"
     enableFullBleed={false}
