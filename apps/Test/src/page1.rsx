@@ -16,6 +16,22 @@
     padding="8px 12px"
     type="main"
   >
+    <NumberInput
+      id="numberInput1"
+      currency="USD"
+      inputValue={0}
+      labelPosition="top"
+      placeholder="Enter value"
+      showSeparators={true}
+      showStepper={true}
+      value={0}
+    />
+    <Image
+      id="image1"
+      heightType="fixed"
+      horizontalAlign="center"
+      src="https://picsum.photos/id/1025/800/600"
+    />
     <Table
       id="table1"
       cellSelection="none"
@@ -167,12 +183,6 @@
         />
       </ToolbarButton>
     </Table>
-    <Image
-      id="image1"
-      heightType="fixed"
-      horizontalAlign="center"
-      src="https://picsum.photos/id/1025/800/600"
-    />
     <Button id="button1" text="Button" />
   </Frame>
 </Screen>
