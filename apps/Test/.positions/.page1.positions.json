@@ -1,4 +1,8 @@
 {
+  "image1": {
+    "row": 1.2,
+    "col": 8
+  },
   "table1": {
     "row": 1.2,
     "height": 8,
