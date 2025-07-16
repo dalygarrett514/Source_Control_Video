@@ -16,6 +16,16 @@
     padding="8px 12px"
     type="main"
   >
+    <NumberInput
+      id="numberInput1"
+      currency="USD"
+      inputValue={0}
+      labelPosition="top"
+      placeholder="Enter value"
+      showSeparators={true}
+      showStepper={true}
+      value={0}
+    />
     <Table
       id="table1"
       cellSelection="none"
@@ -173,5 +183,15 @@
       horizontalAlign="center"
       src="https://picsum.photos/id/1025/800/600"
     />
+    <Image
+      id="circularImage1"
+      aspectRatio={1}
+      fit="contain"
+      heightType="fixed"
+      horizontalAlign="center"
+      src="https://picsum.photos/id/1062/800/800"
+      style={{ map: { borderRadius: "50%" } }}
+    />
+    <Button id="button1" text="Button" />
   </Frame>
 </Screen>

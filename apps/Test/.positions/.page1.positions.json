@@ -1,10 +1,26 @@
 {
+  "button1": {
+    "row": 8.2,
+    "col": 6,
+    "height": 1,
+    "width": 2
+  },
+  "circularImage1": {
+    "row": 6.2,
+    "col": 8,
+    "width": 2
+  },
   "image1": {
     "row": 1.2,
     "col": 8
   },
+  "numberInput1": {
+    "col": 4,
+    "height": 0.2,
+    "width": 4
+  },
   "table1": {
-    "row": 1.2,
+    "row": 0.2,
     "height": 8,
     "width": 8
   }
